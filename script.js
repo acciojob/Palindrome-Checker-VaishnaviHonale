@@ -1,7 +1,7 @@
 // complete the given function
 
 function palindrome(str){
-	const len=str.length;
+	
 	// for(let i=0;i<len/2;i++){
 	// 	if(str[i]!==str[len-1-i]){
 	// 		return false;
@@ -10,8 +10,8 @@ function palindrome(str){
 	// return true;
 
 	const arrayValues=string.split('');
-	const reverseArrayValues=reverseArrayValues.reverse();
-	const reverstringString=reverstringString.join('');
+	const reverseArrayValues=ArrayValues.reverse();
+	const reverstringString=reverseArrayValues.join('');
 	if(str==reverstringString){
 		return true;
 	}
