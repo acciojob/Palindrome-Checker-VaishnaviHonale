@@ -11,8 +11,8 @@ function palindrome(str){
 
 	const arrayValues=string.split('');
 	const reverseArrayValues=ArrayValues.reverse();
-	const reverstringString=reverseArrayValues.join('');
-	if(str==reverstringString){
+	const reverseString=reverseArrayValues.join('');
+	if(str==reverseStringString){
 		return true;
 	}
 	else{
